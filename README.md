@@ -6,7 +6,7 @@
 * [Juan Camilo Guevara Hernandez](juguevarah@unal.edu.co)
 * [Luis Alejandro Rodríguez Arenas](luirodriguezar@unal.edu.co)
 ## Descripción
-La creación de este prototipo que funciona como una extrusora de filamento que **transforma** botellas de plástico en material para **impresión 3D** surgió como respuesta a la problemática global de los residuos plásticos, en un contexto en el que aproximadamente el 79% de las 6.3 billones de toneladas de plástico producido desde 1950 hasta 2015 se encuentra almacenado en vertederos o acumulado en el entorno natural. En este póster se abordará los aspectos técnicos de su desarrollo, los beneficios ambientales que conlleva, su alineación con los **Objetivos de Desarrollo Sostenible** y su potencial impacto en la industria de la manufactura avanzada como una solución que aborda la necesidad de una fuente sostenible de filamento.
+
 ## Objetivos
 - **Fomentar** la innovación tecnológica con un **enfoque sostenible** en la manufactura aditiva y la gestión de residuos plásticos, en línea con el *ODS 9*, para mejorar la eficiencia de la cadena de producción y promover la reutilización de recursos.
 - **Reducir** la cantidad de desechos plásticos en vertederos y océanos **mediante la conversión** de botellas de plástico en material para impresión 3D, en congruencia con el ODS 12, **impulsando** así la economía circular y la producción sostenible.
