@@ -1,12 +1,13 @@
-# [PETinador](https://www.canva.com/design/DAFsw-j3sCE/FWs0MX6IstmFjjXjnOOsIA/view)
+# [PETinador](https://github.com/LuisARodriguezA/PETinador/wiki)
 * Plataforma de reciclaje de plástico PET para impresión 3D
+## [Wiki](https://github.com/LuisARodriguezA/PETinador/wiki)
 ## Integrantes
 * [Maria Paula Rubiano Tellez](mrubianot@unal.edu.co)
 * [Freiman Santiago Cepeda Sanchez](fcepedas@unal.edu.co)
 * [Juan Camilo Guevara Hernandez](juguevarah@unal.edu.co)
 * [Luis Alejandro Rodríguez Arenas](luirodriguezar@unal.edu.co)
 ## Descripción
-
+El uso generalizado de plásticos de un solo uso ha generado una problemática creciente que afecta la gestión de residuos, el medio ambiente y la economía a nivel mundial. Para abordar esta cuestión, se requiere una estrategia que otorgue una segunda vida a estos materiales, al mismo tiempo que genere productos rentables y beneficiosos para la comunidad universitaria y otros grupos que necesiten esta tecnología. Una de las soluciones que hemos implementado implica la transformación de botellas de PET en filamento para impresión 3D, contribuyendo a una economía emergente que busca material de impresión accesible en términos económicos y de calidad. Además, esta iniciativa promueve un proceso de reciclaje basado en plásticos. El proceso de transformación de PET en filamento se lleva a cabo mediante un proceso de termoformado. Hemos seleccionado materiales resistentes a altas temperaturas, como el aluminio, para optimizar la disipación del calor en el dispositivo y mejorar su durabilidad. Todo esto se realiza con el propósito de brindar apoyo en la creación de modelos 3D innovadores basados en filamento asequible y funcional. En resumen, nuestra solución surge con la visión de proporcionar un filamento que fortalezca la creación de proyectos, promueva la reutilización y reduzca la cantidad de plásticos desechados. Además, tiene en cuenta la durabilidad, la utilidad y los beneficios económicos para estudiantes y otros usuarios que requieren esta tecnología, representando una solución en el camino hacia un planeta más sostenible.
 ## Objetivos
 - **Fomentar** la innovación tecnológica con un **enfoque sostenible** en la manufactura aditiva y la gestión de residuos plásticos, en línea con el *ODS 9*, para mejorar la eficiencia de la cadena de producción y promover la reutilización de recursos.
 - **Reducir** la cantidad de desechos plásticos en vertederos y océanos **mediante la conversión** de botellas de plástico en material para impresión 3D, en congruencia con el ODS 12, **impulsando** así la economía circular y la producción sostenible.
