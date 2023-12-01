@@ -1,27 +1,32 @@
-import machine, onewire, ds18x20, time
-
-
-pin_heater = machine.Pin(23, machine.Pin.OUT)
-
-ds_pin = machine.Pin(22)
-ds_sensor = ds18x20.DS18X20(onewire.OneWire(ds_pin))
-
-roms = ds_sensor.scan()
-print('Found DS devices: ', roms)
+import machine, time
+from machine import ADC
+pin_heater = machine.Pin(4, machine.Pin.OUT)
+led = machine.Pin(35, machine.Pin.IN)
+inp = ADC(led)
 
 
 
 def temp():
-    ds_sensor.convert_temp()
-    time.sleep_ms(750)
-    for rom in roms:
-        print(ds_sensor.read_temp(rom))
-        return ds_sensor.read_temp(rom)
+    total = 0 
+    count = 0
+    while count < 1000:
+        adc = inp.read_u16()
+        adc_to_v = (3.3*adc)/65535
+        paso1 = 3.3 - adc_to_v
+        paso2 = paso1/500
+        if paso2 != 0:
+            paso3 = adc_to_v/paso2
+        total += paso3
+        count += 1
+    print(total/count)
+    return total/count
 
-def conv(temp):
-    if temp < 175:
+def conv(tem):
+    if tem < 73:
         pin_heater.on()
-    elif temp >= 175:
+    elif tem >= 83:
         pin_heater.off()
     
 while True:
+    pin_heater.on()
+    conv(temp())
